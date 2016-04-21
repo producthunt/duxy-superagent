@@ -69,5 +69,8 @@
       "afterEach",
       "expect"
     ]
+  },
+  "dependencies": {
+    "es6-promise": "^3.1.2"
   }
 }

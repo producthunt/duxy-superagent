@@ -1,3 +1,5 @@
+import { Promise } from 'es6-promise'
+
 export default function createAdapter (adapter) {
   return use => req => {
     const superagent = adapter(req.method, req.url)
